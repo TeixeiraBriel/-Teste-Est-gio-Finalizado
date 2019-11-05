@@ -24,7 +24,7 @@
 
 - DB_PASSWORD=pass (senha para acessar o banco)
 
-- obs.: dados preechidos são relativos ao meu ambiente de trabalho.
+    - obs.: dados preechidos são relativos ao meu ambiente de trabalho.
 
 3 - Procure o arquivo /config/database.php. Dentro do return, procure 'connections' e vá na array 'mysqly' (ou SGBD utilizado), e preencha os campos de acordo com suas configurações anteriores:
 
