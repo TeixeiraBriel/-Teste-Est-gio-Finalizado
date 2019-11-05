@@ -1,9 +1,16 @@
 <h1> [Teste Estágio] Finalizado </h1>
 
 
-*Considerações inciais
+*Considerações/Configurações inciais
 
-- tilizado no projeto php 7, Laravel, composer (para criação do projeto laravel), MySql.
+- Utilizado no projeto php 7, Laravel, composer (para criação do projeto laravel), MySql.
+
+- Na raiz renomeio o arquivo .env.example para .env.
+
+- No prompt de comando acesse a pasta do projeto e digite o codigo, "composer install", ele importará a pasta "vendor" que não é enviada ao git por ser muito grande.
+
+- Digite o comando "php artisan key:generate".
+
 
 *Configurando o banco de dados.
 
@@ -23,7 +30,8 @@
 
 - DB_PASSWORD=pass (senha para acessar o banco)
 
-    - obs.: dados preechidos são relativos ao meu ambiente de trabalho.
+    - obs.: Dados preechidos acima são relativos ao meu ambiente de trabalho.
+    
 
 3 - Procure o arquivo /config/database.php. Dentro do return, procure 'connections' e vá na array 'mysqly' (ou SGBD utilizado), e preencha os campos de acordo com suas configurações anteriores:
 
