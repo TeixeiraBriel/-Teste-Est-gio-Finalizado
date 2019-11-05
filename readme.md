@@ -1,4 +1,4 @@
-[Teste Estágio] Finalizado
+##[Teste Estágio] Finalizado
 
 
 *Considerações inciais
@@ -6,7 +6,7 @@
 - tilizado no projeto php 7, Laravel, composer (para criação do projeto laravel), MySql.
 
 
-*Configurando o banco de dados.
+#Configurando o banco de dados.
 
 1 - Crie seu banco de dados.(Caso não aja banco para consultar, criar e organizar suas tabelas)
 
@@ -48,7 +48,7 @@
 6 - Por fim utilize o comando "php artisan serve" para hospedar o site no seu localhost e acessa-lo no navegador com o o url dado pelo Laravel.
 
 
-*Informações sobre o o desenvolvimento
+#Informações sobre o o desenvolvimento
 
 - Ultilizando metodo MVC, facilitando o manejo e padronização das views, com blade. Views ecnontram-se em /resources/views
 
