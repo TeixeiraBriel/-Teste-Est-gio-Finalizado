@@ -5,7 +5,7 @@
 
 - Utilizado no projeto php 7, Laravel, composer (para criação do projeto laravel), MySql.
 
-- Na raiz renomeio o arquivo .env.example para .env.
+- Na raiz renomeio o arquivo .env.example para .env
 
 - No prompt de comando acesse a pasta do projeto e digite o codigo, "composer install", ele importará a pasta "vendor" que não é enviada ao git por ser muito grande.
 
