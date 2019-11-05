@@ -33,7 +33,7 @@
     - obs.: Dados preechidos acima são relativos ao meu ambiente de trabalho.
     
 
-3 - Procure o arquivo /config/database.php. Dentro do return, procure 'connections' e vá na array 'mysqly' (ou SGBD utilizado), e preencha os campos de acordo com suas configurações anteriores:
+3 - Procure o arquivo /config/database.php. Dentro do return, procure 'connections' e vá na array 'mysql' (ou SGBD utilizado), e preencha os campos de acordo com suas configurações anteriores:
 
 - 'host' => env('DB_HOST', 'localhost'), (Host do seu banco)
 
